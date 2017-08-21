@@ -1,0 +1,23 @@
+{
+    "name": "tmsolution/oktawave-api",
+    "description": "Oktawave REST api",
+    "keywords": ["octawave", "rest", "api"],
+    "version": "1.0",
+    "homepage": "http://tmsolution.pl",
+    "authors": [
+        {
+            "name": "Mariusz Piela",
+            "email": "mariusz.piela@tmsolution.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+   "autoload": {
+        "psr-4": {"OktawaveApi\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"OktawaveApi\\": "tests"}
+    },
+    "minimum-stability": "dev"
+}
